@@ -5,7 +5,6 @@ import homeComponent from './home.component';
 let homeModule = angular.module('home', [
   uiRouter
 ])
-
 .config(($stateProvider, $urlRouterProvider) => {
   "ngInject";
 
@@ -17,9 +16,7 @@ let homeModule = angular.module('home', [
       component: 'home'
     });
 })
-
 .component('home', homeComponent)
-  
 .name;
 
 export default homeModule;

@@ -2,6 +2,7 @@ import angular from 'angular';
 import Navbar from './navbar/navbar';
 import Hero from './hero/hero';
 import User from './user/user';
+import rxHttp from './rxHttp/rxHttp';
 
 import ngAnimate from 'angular-animate';
 import ngAria from 'angular-aria';
@@ -14,6 +15,7 @@ let commonModule = angular.module('app.common', [
   ngAnimate,
   ngAria,
   ngMaterial,
+  rxHttp
 ])
   
 .name;
